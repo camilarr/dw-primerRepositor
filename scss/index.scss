@@ -1,0 +1,37 @@
+
+/* header */
+header{
+    color: black;
+    padding:  0,7rem;
+    margin-bottom:60px;
+}
+
+header a {color: black;
+    text-decoration: underline;
+    }
+/* body */
+body{
+ font-family: serif;
+font-size: 1.2rem;
+line-height: 1.4em;
+text-decoration-color: white;
+background: url(../assets/back.jpg) no-repeat center top;
+ background-attachment: fixed;
+background-size: cover;
+}
+p {
+    margin-bottom: 1.6em;
+  font-size: 150%;
+  font-style: italic;
+   text-decoration: none;
+   color: darkcyan;
+ 
+}
+@import 'partials/_nav.scss';
+@import 'partials/_menu.scss';
+@import 'partials/_animations.scss';
+@import 'partials/_grids.scss';
+@import 'partials/_footer.scss';
+@import 'partials/_login.scss';
+@import 'partials/_botones.scss';
+@import 'partials/_cart.scss';

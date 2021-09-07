@@ -1,0 +1,64 @@
+
+
+/*    ANIMATIONS   */
+
+/* Fade In Down */
+
+@keyframes fadeInDown {
+  0% {  opacity: 0;  transform: translateY(-100px); } 
+  100% {  opacity: 1;  transform: translateY(0);  }
+}
+
+.fadeInDown {
+  -webkit-animation: fadeInDown 1s both 0.5s;
+  -moz-animation: fadeInDown 1s both 0.5s;
+  -o-animation: fadeInDown 1s both 0.5s;
+  animation: fadeInDown 1s both 0.5s;
+}
+/* Fade In Down */
+
+/* Social Transition */
+
+.social img{
+position:absolute;
+left:0;
+top:0;
+-webkit-transition: margin-top 250ms ease-in;
+-moz-transition: margin-top 250ms ease-in;
+-o-transition:  margin-top 250ms ease-in;
+transition:  margin-top 250ms ease-in;
+}
+.social:hover img{
+margin-top:-62px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 700;
+}
+
+h3, .h3 {
+    font-size: 1.125rem;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
