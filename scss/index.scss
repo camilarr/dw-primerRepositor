@@ -10,7 +10,8 @@ header a {color: black;
     text-decoration: underline;
     }
 /* body */
-body{
+@media (min-width: 800px) {
+body{ 
  font-family: serif;
 font-size: 1.2rem;
 line-height: 1.4em;
@@ -26,7 +27,7 @@ p {
    text-decoration: none;
    color: darkcyan;
  
-}
+}}
 @import 'partials/_nav.scss';
 @import 'partials/_menu.scss';
 @import 'partials/_animations.scss';
