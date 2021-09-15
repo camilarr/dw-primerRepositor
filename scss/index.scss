@@ -10,7 +10,7 @@ header a {color: black;
     text-decoration: underline;
     }
 /* body */
-@media (min-width: 800px) {
+
 body{ 
  font-family: serif;
 font-size: 1.2rem;
@@ -19,7 +19,7 @@ text-decoration-color: white;
 background: url(../assets/back.jpg) no-repeat center top;
  background-attachment: fixed;
 background-size: cover;
-}
+
 p {
     margin-bottom: 1.6em;
   font-size: 150%;
@@ -27,7 +27,10 @@ p {
    text-decoration: none;
    color: darkcyan;
  
-}}
+}
+@mediascreen and (max.width: 640px){display:none;}.carrousel
+    
+
 @import 'partials/_nav.scss';
 @import 'partials/_menu.scss';
 @import 'partials/_animations.scss';
