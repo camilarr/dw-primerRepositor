@@ -12,13 +12,11 @@
 
 .item-1 { grid-area: item-1;
  overflow: hidden;
-  height: auto;
-  position: sticky;
+  position: relative;
 }
 .item-1 img {
-    width :300; 
-  height :100;
- position: sticky;
+ margin : 0;
+  height :auto;
   top: -60%;
   transition: all 0.5s;
  transform:translateY(-25px);
@@ -55,27 +53,22 @@ grid-template-areas:
  padding-bottom: 10px;
   font-family: "Open Sans"
 }
-.offers {
-
-}
 
 
-.offers .img-container1{
+
+.offers .img-container1{margin:auto;
     grid-area: a;
  overflow: hidden;
- height :auto;
- position: sticky;
-  width: 100% \9;
+ position: relative;
 }
 .offers .img-container1 img{ 
-  width :auto; 
- height :auto;
- position: sticky;
+margin:auto;
+ position: relative;
  margin-top: -0%;
   transition: all 0.5s;
  transform:translateY(-25px);
 }
-.offers:hover .img-container1 img{
+.offers:hover .img-container1 img{ 
   transform: scale(1.2);
 }
 .offers .img-container1 .promo{
@@ -130,7 +123,7 @@ grid-area: d;
   background-color: transparent;
   border: 1px solid black;
 }
-.productos{
+.productos{margin:auto;
 justify-items: space-between;
 align-content: stretch;
 justify-content:center;

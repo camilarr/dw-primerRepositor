@@ -170,13 +170,11 @@ h3 {
 .item-1, .item-2, .item-3, .item-4, .item-5, .item-6, .productos .img-container5, .productos .img-container6, .productos .img-container7, .productos .img-container8, .productos .img-container9, .productos .img-container11 {
   grid-area: item-1;
   overflow: hidden;
-  height: auto;
-  position: sticky; }
+  position: relative; }
 
 .item-1 img, .item-2 img, .item-3 img, .item-4 img, .item-5 img, .item-6 img, .productos .img-container5 img, .productos .img-container6 img, .productos .img-container7 img, .productos .img-container8 img, .productos .img-container9 img, .productos .img-container11 img {
-  width: 300;
-  height: 100;
-  position: sticky;
+  margin: 0;
+  height: auto;
   top: -60%;
   transition: all 0.5s;
   transform: translateY(-25px); }
@@ -208,16 +206,14 @@ h3 {
   font-family: "Open Sans"; }
 
 .offers .img-container1, .offers .img-container2, .offers .img-container3, .offers .img-container4 {
+  margin: auto;
   grid-area: a;
   overflow: hidden;
-  height: auto;
-  position: sticky;
-  width: 100% \9; }
+  position: relative; }
 
 .offers .img-container1 img, .offers .img-container2 img, .offers .img-container3 img, .offers .img-container4 img {
-  width: auto;
-  height: auto;
-  position: sticky;
+  margin: auto;
+  position: relative;
   margin-top: -0%;
   transition: all 0.5s;
   transform: translateY(-25px); }
@@ -275,6 +271,7 @@ h3 {
   border: 1px solid black; }
 
 .productos {
+  margin: auto;
   justify-items: space-between;
   align-content: stretch;
   justify-content: center;
@@ -310,7 +307,6 @@ h3 {
   flex: 0 0 auto;
   color: #8b8b8b;
   margin-top: 15px;
-  padding-top: 15px;
   border-top: 1px solid #444; }
 
 .item {
