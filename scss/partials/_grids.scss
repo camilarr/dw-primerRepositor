@@ -123,10 +123,7 @@ grid-area: d;
   background-color: transparent;
   border: 1px solid black;
 }
-.productos{margin:auto;
-justify-items: space-between;
-align-content: stretch;
-justify-content:center;
+.productos{
     grid-template-areas:
     " menu menu menu menu"
         "e e f f "
@@ -164,3 +161,4 @@ justify-content:center;
   grid-area:j;
  @extend .item-1
 }
+
