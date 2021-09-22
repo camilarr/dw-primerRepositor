@@ -14,10 +14,10 @@
  overflow: hidden;
   position: relative;
 }
-.item-1 img {
- margin : 0;
-  height :auto;
-  top: -60%;
+.item-1 img {max-width: 100%;
+ margin:auto;
+ position: relative;
+ margin-top: -0%;
   transition: all 0.5s;
  transform:translateY(-25px);
 }
@@ -60,8 +60,10 @@ grid-template-areas:
     grid-area: a;
  overflow: hidden;
  position: relative;
+
 }
-.offers .img-container1 img{ 
+.offers .img-container1 img{  margin: 0 auto;
+  padding: 0;
 margin:auto;
  position: relative;
  margin-top: -0%;
@@ -134,6 +136,17 @@ grid-area: d;
     align-content: center;
     align-items: center;
 
+}
+.productos .info-container{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+.productos .info-container h3,
+.productos .info-container strong,.productos .info-container span{
+  padding: 5px 15px;
+  width: 100%;
 }
 
 .productos .img-container5{
