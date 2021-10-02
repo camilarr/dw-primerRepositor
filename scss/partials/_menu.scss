@@ -1,12 +1,12 @@
 /* menu desplegable */
 
-.menu a{
+.dropdown a{
       text-decoration:none;
       color:inherit;
       font-size:14px;
       }
             
-.menu li{
+.dropdown-item{
       display:inline-block;
       width:150px;
       height: auto;
@@ -18,28 +18,20 @@
       position:relative;
 }
        
-.menu li:hover{
+.dropdown-item:hover{
       background-color:#fff;
       color:#000;
       }
             
-.menu li ul{
+.dropdown-item{
       display:none;
       }
 
-.menu li:hover ul{
+.dropdown-item:hover ul{
       display:block;
       position:absolute;
       top:30px;
       left:0px;
 }
-.menu ul ul{
-    position: relative;
-    display: none;
-}
-.menu ul ul li{
-    display: block;
-}
-.menu ul li:hover ul {
-    display: block;
-}
+
+
