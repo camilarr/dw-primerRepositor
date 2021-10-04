@@ -97,13 +97,13 @@ margin:auto;
 grid-area: d;
  @extend .img-container1
 }
-.offers .info-container{
+.info-container{
   display: flex;
   flex-wrap: wrap;
   text-align: center;
   justify-content: center;
 }
-.offers .info-container h3{
+ .info-container h3{
   margin: 0;
 }
 .offers .info-container h3,
@@ -176,10 +176,8 @@ grid-area: d;
   grid-area:j;
  @extend .item-1
 }
-.comtainerfluid {
-  background: #FFFFFF;
-    border-radius: 20px;
-    box-shadow: 0px 4px 20px ;
-    padding: 20px;
-    margin: 30px 20px;
-}
+
+
+.card {
+margin-left: 30%;
+]
