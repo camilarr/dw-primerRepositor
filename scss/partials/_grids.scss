@@ -86,7 +86,8 @@ margin:auto;
 }
 .offers .img-container2{
     grid-area: b;
- @extend .img-container1}
+ @extend .img-container1
+ }
 
 .offers .img-container3{
     grid-area: c;
@@ -151,7 +152,8 @@ grid-area: d;
 
 .productos .img-container5{
  grid-area: e;
-@extend .item-1}
+@extend .item-1
+}
 
 .productos .img-container6{
  grid-area: f;
