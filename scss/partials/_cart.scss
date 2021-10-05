@@ -1,7 +1,16 @@
 .shopping-cart{
   padding-bottom: 50px;
   font-family: 'Montserrat', sans-serif;
+
 }
+@media (min-width: 992px) { .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: -15px;
+    margin-left: -15px;
+} }
 
 .shopping-cart.dark{
   background-color: #f6f6f6;
@@ -80,7 +89,7 @@
     background-color: #f7fbff;
     height: auto;
     padding: 30px;
-}
+    }
 
 .shopping-cart .summary h3{
   text-align: center;
