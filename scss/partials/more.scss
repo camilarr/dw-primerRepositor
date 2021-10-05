@@ -2,22 +2,7 @@
   -webkit-box-sizing: inherit;
   box-sizing: inherit;
 }
-html {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-.bodym {
-  margin: 0;
-  padding: 0;
-  font-family: 'Hind', sans-serif;
-  background: #fff;
-  color: #4d5974;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 100vh;
-}
+
 .containerm {
   margin: 0 auto;
   padding: 4rem;
