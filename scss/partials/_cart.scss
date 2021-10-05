@@ -3,12 +3,13 @@
   font-family: 'Montserrat', sans-serif;
 
 }
-@media (min-width: 992px) { .row {
+@media (min-width: 992px){
+.row {
     display: flex;
     flex-wrap: nowrap;
     margin-right: -15px;
     margin-left: -15px;
-} }
+}}
 
 .shopping-cart.dark{
   background-color: #f6f6f6;
