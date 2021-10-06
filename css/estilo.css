@@ -309,14 +309,15 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  justify-content: center; }
+  justify-content: center;
+  flex-direction: column; }
 
 .info-container h3 {
   margin: 0; }
 
-.offers .info-container h3,
-.offers .info-container strong,
-.offers .info-container span {
+.info-container h3,
+.info-container strong,
+.info-container span {
   padding: 5px 15px;
   width: 100%; }
 
