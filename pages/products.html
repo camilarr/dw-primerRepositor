@@ -2,18 +2,18 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 	<!-- link a bootstrap css -->
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
  <!-- AOS -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 <!-- link a css -->
 	<link rel="stylesheet"  href="../css/estilo.css">
+
 <title>Products</title>
 <meta name="keywords"content="OFFERS,TECHNOLOGY,SMARTPHONES,TABLETS,COMPUTERS.">
 <meta name="description" content="The best offers in Smartphones,Tablets and Computers">
-
 </head>
 <body>
 
@@ -49,16 +49,17 @@
 
 <div class="offers">
 		<div class="dropdown">
-    <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <button id="dLabel"class="btn btn-secondary btn-lg dropdown-toggle" role="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
       Products
   </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <a class="dropdown-item " href="#">Smartphones</a>
+  <div class="dropdown-menu " aria-labelledby="dLabel">
+    <a class=".dropdown-item" >Smartphones</a>
     <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Tablets</a>
-    <a class="dropdown-item" href="#">Computers</a>
+    <a class=".dropdown-item" >Tablets</a>
+    <div class="dropdown-divider"></div>
+    <a class=".dropdown-item" >Computers</a>
   </div>
-</div>
+</div><br>
 
 
 <div class="container-fluid">
@@ -115,12 +116,15 @@
      Smartphones
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Samsung</a>
+    <a class=".dropdown-item" >Samsung</a>
     <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Motorola</a>
-    <a class="dropdown-item" href="#">LG</a>
-    <a class="dropdown-item" href="#">Iphone</a>
-    <a class="dropdown-item" href="#">Huawei</a>
+    <a class=".dropdown-item" >Motorola</a>
+    <div class="dropdown-divider"></div>
+    <a class=".dropdown-item" >LG</a>
+    <div class="dropdown-divider"></div>
+    <a class=".dropdown-item" >Iphone</a>
+    <div class="dropdown-divider"></div>
+    <a class=".dropdown-item" >Huawei</a>
   </div>
 </div><br>
 
@@ -155,12 +159,15 @@
     Tablets
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Apple</a>
+    <a class=".dropdown-item" >Apple</a>
     <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Samsung</a>
-    <a class="dropdown-item" href="#">Microsoft</a>
-    <a class="dropdown-item" href="#">Lenovo</a>
-    <a class="dropdown-item" href="#">Huawei</a>
+    <a class=".dropdown-item" >Samsung</a>
+    <div class="dropdown-divider"></div>
+    <a class=".dropdown-item" >Microsoft</a>
+    <div class="dropdown-divider"></div>
+    <a class=".dropdown-item" >Lenovo</a>
+    <div class="dropdown-divider"></div>
+    <a class=".dropdown-item" >Huawei</a>
   </div>
 </div><br>
   
@@ -199,12 +206,15 @@
     Computers
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Lenovo</a>
+    <a class=".dropdown-item" >Lenovo</a>
     <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">HP</a>
-    <a class="dropdown-item" href="#">Apple</a>
-    <a class="dropdown-item" href="#">Lenovo</a>
-    <a class="dropdown-item" href="#">Toshiba</a>
+    <a class=".dropdown-item" >HP</a> 
+    <div class="dropdown-divider"></div>
+    <a class=".dropdown-item" >Apple</a>
+    <div class="dropdown-divider"></div>
+    <a class=".dropdown-item" >Lenovo</a>
+    <div class="dropdown-divider"></div>
+    <a class=".dropdown-item" >Toshiba</a>
   </div>
 </div><br>
   
@@ -350,10 +360,14 @@
 </div>
  <!-- cierre de footer -->
   <!-- JavaScript -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">javascript"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script> <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init();
 </script>
+<script type="text/javascript">$('.dropdown-toggle').dropdown()</script>
 </body>
 </html>
