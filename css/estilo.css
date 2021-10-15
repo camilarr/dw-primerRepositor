@@ -272,7 +272,7 @@ h3 {
 .offers .offers:hover .img-container1 img, .offers .offers:hover .img-container2 img, .offers .offers:hover .img-container3 img, .offers .offers:hover .img-container4 img {
   transform: scale(1.2); }
 
-.offers .offers .img-container1 .promo, .offers .offers .img-container2 .promo, .offers .offers .img-container3 .promo, .offers .offers .img-container4 .promo {
+.offers .promo {
   position: absolute;
   top: 10px;
   left: 0;
